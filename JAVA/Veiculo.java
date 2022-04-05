@@ -1,7 +1,7 @@
-package model;
+package PegadaDeCarbono;
 
 public class Veiculo {
-	
+
 	private int ID_veiculo;
 	private String modelo;;
 	
