@@ -1,4 +1,4 @@
-package PegadaDeCarbono;
+package util;
 
 import java.util.List;
 
@@ -9,7 +9,7 @@ public class Chamados {
 	private Veiculo km_final;
 
 	private List<Colaborador> colaborador;
-	private List<Veiculo> modelo_veiculo;
+	private List<Veiculo> modelo;
 
 	public int getID_chamados() {
 		return ID_chamados;
@@ -40,9 +40,9 @@ public class Chamados {
 		this.colaborador = colaborador;
 	}
 	public List<Veiculo> getveiculo() {
-		return modelo_veiculo;
+		return modelo;
 	}
-	public void setVeiculo(List<Veiculo> modelo_veiculo) {
-		this.modelo_veiculo = modelo_veiculo;
+	public void setVeiculo(List<Veiculo> modelo) {
+		this.modeloo = modelo;
 	}
 }
