@@ -9,7 +9,7 @@ public class Chamados {
 	private Veiculo km_final;
 
 	private List<Colaborador> colaborador;
-	private List<Veiculo> modelo_veiculo;
+	private List<Veiculo> modelo;
 
 	public int getID_chamados() {
 		return ID_chamados;
